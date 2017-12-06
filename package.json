@@ -1,0 +1,9 @@
+{
+  "name": "angular-sample",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "angular": "1.6.6"
+  }
+}
