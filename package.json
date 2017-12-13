@@ -9,9 +9,7 @@
   },
   "devDependencies": {
     "webpack": "^3.10.0",
-    "webpack-dev-server": "^2.9.5",
-    "style-loader": "0.19.0",
-    "css-loader": "0.28.7"
+    "webpack-dev-server": "^2.9.5"
   },
   "scripts": {
     "server": "webpack-dev-server --history-api-fallback --inline --progress",
