@@ -1,6 +1,6 @@
 <div>
-  <ul ng-repeat="pane in panes">
-    <li ng-class="{ active: pane.active }">{{pane.title}}</li>
+  <ul class="navigation">
+    <li ng-repeat="pane in panes" ng-click="activatePane(pane)" ng-class="{ active: pane.active }">{{ pane.title }}</li>
   </ul>
-  <div></div>
+  <ng-transclude></ng-transclude>
 </div>
